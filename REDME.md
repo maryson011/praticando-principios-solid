@@ -10,7 +10,7 @@ Projeto Prático - API de Produtos:
     [OK] - Inicialização do projeto e instalação do typescript
         npm init -y, npm i typescript ts-node @types/node --save-dev, npx tsc --init
     [OK] - Configuração do tsconfig.json e do package.json
-    [] - Criação da entidade
+    [OK] - Criação da entidade
     [] - Criação do repositório
         [] - Criação do contrado
         [] - Instalação e configuração do prisma + sqlite
