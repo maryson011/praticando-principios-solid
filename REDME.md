@@ -12,8 +12,9 @@ Projeto Prático - API de Produtos:
     [OK] - Configuração do tsconfig.json e do package.json
     [OK] - Criação da entidade
     [] - Criação do repositório
-        [OK] - Criação do contrado
-        [] - Instalação e configuração do prisma + sqlite
+        [OK] - Criação do contrato
+        [OK] - Instalação e configuração do prisma + sqlite
+            npm i prisma --save-dev, npx prisma init, npx prisma db push, npm i @prisma/client
         [] - Criação do repositório de produtos
     [OK] - Criação do serviço
         [OK] - Criação do contrato
