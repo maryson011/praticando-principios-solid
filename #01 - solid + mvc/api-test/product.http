@@ -6,8 +6,8 @@ POST http://localhost:8000/products/create
 Content-Type: application/json
 
 {
-    "name": "Produto 1",
-    "price": 10.23
+    "name": "Produto 3",
+    "price": 101.23
 }
 ###
 POST http://localhost:8000/products/create
