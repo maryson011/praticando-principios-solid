@@ -19,10 +19,11 @@ Projeto Prático - API de Produtos:
     [OK] - Criação do serviço
         [OK] - Criação do contrato
         [OK] - Implementação concreta
-    [] - Criação do controller
-    [] - Criação da API
-        [] - Criação do contrado
-        [] - Implementação concreta
+    [OK] - Criação do controller
+        npm i express, npm install @types/express -D
+    [OK] - Criação da API
+        [OK] - Criação do contrado
+        [OK] - Implementação concreta
 
 
 

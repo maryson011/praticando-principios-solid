@@ -6,7 +6,7 @@ export class ProductRepositoryPrisma implements ProductRepository {
 
     private constructor(readonly prisma: PrismaClient){}
 
-    public build(prisma: PrismaClient){
+    public static build(prisma: PrismaClient){
         return new ProductRepositoryPrisma(prisma)
     }
 
