@@ -1,13 +1,14 @@
 Principios SOLID:
-    [] - Quais são os principios
-    [] - O que é cada um
+    [OK] - Quais são os principios
+    [Ok] - O que é cada um
 
 MVC:
-    [] - O que é
-    [] - Como funciona
+    [OK] - O que é
+    [OK] - Como funciona
 
 Projeto Prático - API de Produtos:
-    [] - Inicialização do projeto e instalação do typescript
+    [OK] - Inicialização do projeto e instalação do typescript
+        npm init -y, npm i typescript ts-node @types/node --save-dev, npx tsc --init
     [] - Configuração do tsconfig.json e do package.json
     [] - Criação da entidade
     [] - Criação do repositório
@@ -26,7 +27,13 @@ Projeto Prático - API de Produtos:
 
 
 S - single responsability > toda classe deveria ter somente um motivo para existir/ser modificado
-O - open-closed > 
-L - liskov
-I - interface segregation
-D - dependecy inversion
+O - open-closed > toda classe deveria estar fechada para modificar e aberta oara extensão
+L - liskov > toda classe deveria ser possível de ser substituida por uma de suas filhas
+I - interface segregation > a implementação concreta de uma interface deveria implementar todos os metodos
+D - dependecy inversion > uma classe deveria depender de uma abstração, e não de uma implementação concreta
+
+VIEW  -> client/UI --> request HTTP/Json --> controller
+CONTROLLER -> --> DTO
+MODEL -> DTO --> (Entirty <-- Service --> Repository) --> (Entity <-- Repository --> DB)
+
+sempre que se faz transição de camadas passa-se o DTO apenas
