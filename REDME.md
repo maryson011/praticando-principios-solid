@@ -12,12 +12,12 @@ Projeto Prático - API de Produtos:
     [OK] - Configuração do tsconfig.json e do package.json
     [OK] - Criação da entidade
     [] - Criação do repositório
-        [] - Criação do contrado
+        [OK] - Criação do contrado
         [] - Instalação e configuração do prisma + sqlite
         [] - Criação do repositório de produtos
-    [] - Criação do serviço
-        [] - Criação do contrato
-        [] - Implementação concreta
+    [OK] - Criação do serviço
+        [OK] - Criação do contrato
+        [OK] - Implementação concreta
     [] - Criação do controller
     [] - Criação da API
         [] - Criação do contrado
