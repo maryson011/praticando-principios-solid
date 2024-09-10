@@ -15,7 +15,7 @@ Projeto Prático - API de Produtos:
         [OK] - Criação do contrato
         [OK] - Instalação e configuração do prisma + sqlite
             npm i prisma --save-dev, npx prisma init, npx prisma db push, npm i @prisma/client
-        [] - Criação do repositório de produtos
+        [OK] - Criação do repositório de produtos
     [OK] - Criação do serviço
         [OK] - Criação do contrato
         [OK] - Implementação concreta
